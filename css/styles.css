@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill {
+    padding: 10px;
+    background: lightgray;
+    margin: 5px;
+    border-radius: 5px;
+}
+.project-card {
+    background: #f3f3f3;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
